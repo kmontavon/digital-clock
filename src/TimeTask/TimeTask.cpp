@@ -1,4 +1,4 @@
-#include "TimeTask.h"
+#include "./TimeTask.h"
 
 TimeTask::TimeTask(NixieDisplay* nixie, I2C* i2c, Settings* settings, HV* hv) {
   _nixie = nixie;

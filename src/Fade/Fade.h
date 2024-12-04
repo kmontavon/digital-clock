@@ -2,8 +2,8 @@
 #define Fade_h
 
 #include "Arduino.h"
-#include "Globals.h"
-#include "Settings.h"
+#include "./../Globals.h"
+#include "./../Settings.h"
 
 class Fade {
   public:

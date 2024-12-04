@@ -2,14 +2,14 @@
 #define WiFiTask_h
 
 #include "Arduino.h"
-#include "Globals.h"
-#include "I2C.h"
-#include "Settings.h"
-#include "NixieDisplay.h"
-#include "TimeTask.h"
-#include "Secrets.h"
-#include "Fade.h"
-#include "HV.h"
+#include "./../Globals.h"
+#include "./../I2C/"
+#include "./../Settings.h"
+#include "./../Nixie/NixieDisplay.h"
+#include "./../TimeTask/TimeTask.h"
+#include "./../Secrets.h"
+#include "./../Fade/Fade.h"
+#include "./../HV/HV.h"
 #include <MQTT.h>
 #include <ArduinoJson.h>
 

@@ -1,4 +1,4 @@
-#include "NixieDisplay.h"
+#include "./NixieDisplay.h"
 
 NixieDisplay::NixieDisplay(Settings* settings) {
   _settings = settings;

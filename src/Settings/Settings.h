@@ -2,9 +2,9 @@
 #define Settings_h
 
 #include "Arduino.h"
-#include "Globals.h"
+#include "./../Globals.h"
 
-#include "Secrets.h"                   // This file holds the AP WiFi name and password
+#include "./../Secrets.h"                   // This file holds the AP WiFi name and password
 
 // All the extra downloaded libraries go here (current code tested with the following versions)
 #include <WiFiNINA.h>                  // v1.8.13 WiFi Library - https://github.com/arduino-libraries/WiFiNINA

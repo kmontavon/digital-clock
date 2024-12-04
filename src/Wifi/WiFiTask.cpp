@@ -1,4 +1,4 @@
-#include "WiFiTask.h"
+#include "./WiFiTask.h"
 
 WiFiTask::WiFiTask(NixieDisplay* nixie, TimeTask* timetask, I2C* i2c, NTPClient* timeclient, WiFiServer* server, Settings* settings, Fade* fade, HV* hv) {
   _nixie = nixie;

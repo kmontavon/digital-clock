@@ -2,10 +2,10 @@
 #define I2C_h
 
 #include "Arduino.h"
-#include "Globals.h"
-#include "Settings.h"
-#include "NixieDisplay.h"
-#include "HV.h"
+#include "./../Globals.h"
+#include "./../Settings.h"
+#include "./../Nixie/NixieDisplay.h"
+#include "./../HV/HV.h"
 
 class I2C {
   public:

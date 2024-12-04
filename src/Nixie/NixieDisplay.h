@@ -2,8 +2,8 @@
 #define NixieDisplay_h
 
 #include "Arduino.h"
-#include "Globals.h"
-#include "Settings.h"
+#include "./../Globals.h"
+#include "./../Settings.h"
 
 // Location of each segment in each tube the 64 bit shift register
 const byte dotOne        = 63;

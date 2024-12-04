@@ -2,11 +2,11 @@
 #define TimeTask_h
 
 #include "Arduino.h"
-#include "Globals.h"
-#include "I2C.h"
-#include "Settings.h"
-#include "NixieDisplay.h"
-#include "HV.h"
+#include "./../Globals.h"
+#include "./../I2C/I2C.h"
+#include "./../Settings.h"
+#include "./Nixie/NixieDisplay.h"
+#include "./../HV/HV.h"
 
 class TimeTask {
   public:

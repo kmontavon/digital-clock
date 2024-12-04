@@ -2,7 +2,7 @@
 #define HV_h
 
 #include "Arduino.h"
-#include "Globals.h"
+#include "./../Globals.h"
 
 class HV {
   public:

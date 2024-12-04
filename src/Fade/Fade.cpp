@@ -1,4 +1,4 @@
-#include "Fade.h"
+#include "./Fade.h"
 
 Fade::Fade(Settings* settings) {
   _settings = settings;
